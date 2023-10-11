@@ -1,0 +1,10 @@
+@charset "utf-8";
+ul, li{
+    font-size: 20px;
+}
+boby, p{
+    font-size: 20px;
+}
+div, h1{
+    color: crimson;
+}
