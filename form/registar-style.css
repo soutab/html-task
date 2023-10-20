@@ -1,0 +1,17 @@
+@charset "utf-8";
+.hisu{
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 7px;
+}
+b, d{
+    text-align: left;
+    vertical-align: top;
+}
+.aaa{
+    font-size: 7px;
+}
+.bbb{
+    background:linear-gradient(to left, #ffffff, #ff8b8b);
+}
