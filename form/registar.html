@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="registar-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+</head>
+<body>
+    <form action="get" enctype="multipart/form-data">
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+   <fieldset><d class="bbb">ID<a class="hisu">必須</a>(メールアドレス) 　　　</d>　　　　　　　<input  type="email" name="user_email" size="30" required></fieldset><br>
+   <fieldset><d class="bbb">パスワード<a class="hisu">必須</a><c class="aaa">半角英数字8文字以上</c>　　</d>　　　　　　　　<input type="password" name="user_password" size="30" minlength="8" required>
+    <label><input type="checkbox">パスワードを表示する</label></fieldset><br>
+    <fieldset><d class="bbb">氏名<a class="hisu">必須</a>　　　　</d>　　　　　　　　　　　　　姓:<input type="text" name="first_name" placeholder="例:盛岡" required>　名:<input type="text" name="last_name" placeholder="例:太郎" required></fieldset><br>
+    <fieldset><d class="bbb">住所　　　　　</d>　　　　　　　　　　　　　〒<input type="text" name="number" placeholder="020-0021" disabled><br>
+　　　　　　　　　　　　　　　　　　　　<input type="text" name="juusyo" placeholder="岩手県盛岡市中央通3丁目" disabled><br>
+    　　　　　　　　　　　　　　　　　　　　<input type="text" name="banti" placeholder="番地"><br>
+    　　　　　　　　　　　　　　　　　　　　<input type="text" name="tatemono" size="30" placeholder="建物名"></fieldset><br>
+    <fieldset><d class="bbb">携帯電話番号<a class="hisu">必須</a>(ハイフンなし)　　　　</d>　　 <input type="tel" name="call" required></fieldset><br>
+    <fieldset><d class="bbb">学科・学年<a class="hisu">必須</a>　　　　</d>　　　　　　　　　　学科:<select name="gakunen" required>
+        <option value="">学科選択してください</option>
+        <option value="システム系学科">システム系学科</option>
+        <option value="ビジネス系学科">ビジネス系学科</option>
+        <option value="デザイン系学科">デザイン系学科</option>
+        </select>
+        　学年:<select name="gakka" required>
+        <option value="">学年選択してください</option>
+        <option value="1年">1年</option>
+        <option value="2年">2年</option>
+        <option value="3年">3年</option>
+        <option value="4年">4年</option>
+        </select></fieldset><br>
+    <fieldset><d class="bbb">お得な情報・クーポン<a class="hisu">必須</a>　　　</d>　　　　　　<input type="radio" name="coupon" value="true" required>受け取る
+    <input type="radio" name="coupon" value="false">受け取らない</fieldset><br>
+    <fieldset><d class="bbb"><b>ご意見・ご要望<c class="aaa">(200字以内でご記入ください)</c></b></d>
+    　　　　　　　<textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea></fieldset><br>
+    <button type="reset">入力内容をリセットする</button>
+    <button type="submit">　　　送信　　　</button>
+</form>
+</body>
+</html>
