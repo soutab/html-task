@@ -1,0 +1,53 @@
+@charset "utf-8";
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+.item{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 50px;
+    background-color: rgb(255, 234, 0);
+    justify-content: space-around;
+    
+}
+.box {
+    display: flex;
+    width: 100%;
+    
+}
+
+.picture{
+    width: 200px;
+    height: 180px;
+    margin: auto;
+}
+
+.picture, img {
+    width: 85%;
+    height: auto;
+}
+
+h2{
+    width: 90%;
+    text-align: center;
+}
+a{
+    width: 80%;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+    background-color: darkorange;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+p{
+    width: 90%;
+}
