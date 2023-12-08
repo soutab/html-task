@@ -1,0 +1,9 @@
+@charset "utf-8";
+img{
+    float: left;
+    width: 60%;
+    height: 180px;
+  }
+  .word{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
