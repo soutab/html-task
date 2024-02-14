@@ -1,0 +1,153 @@
+html{
+    background-image: url(characher-img/maxresdefaulta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  } 
+.air{
+    margin-bottom: 150px;
+}
+.air2{
+  margin-bottom: 80px;
+}
+  main {
+     font-family:'Noto Sans JP',sans-serif;
+  }
+  .side {
+    width:20%;
+    height:1000px;
+    text-align:center;
+    margin-left:10px;
+    background-color: rgb(213, 213, 213,0.888);
+  } 
+  .content {
+    width:80%;
+    height:15800px;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.888);
+  }
+  article {
+    display:flex;
+  }
+h1{
+    font-size: 80px;
+    color: rgb(255, 98, 218);
+    font-family:"Comic Sans MS";
+}
+img{
+  width: 80%;
+  height: 450px;
+}
+h2{
+  font-size: 40px;
+  color: rgb(255, 98, 218);
+}
+h3{
+  font-size: 30px;
+  color: rgb(24, 24, 24);
+}
+h4{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+p{
+  font-size: 20px;
+  color: rgb(37, 37, 37);
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.modern-title{
+
+  color: red;
+}
+.future-title{
+
+  color: blue;
+}
+.tite{
+display: flex;
+}
+.modern li a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 0, 93);
+}
+.modern-world p{
+  font-size: 20px;
+}
+.future li a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 162, 255);
+}
+.ttt a{
+font-size: 40px;
+padding-left: 270px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*header*/
+.navigation{
+  /* flexboxで要素を真ん中に指定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+}
+.navigation ul {
+  width: 100%;
+}
+.button{
+  display: flex;
+  padding:20px;
+  width:20%;
+  float: left;
+  /* カーソルを離した際のアニメーションの速度調整 */
+  transition:.2s all;
+}
+.button p {
+  height: 10px;
+  font-weight: 300;
+}
+.button a {
+  color: rgb(255, 98, 218);
+  /* リンク指定した要素のスタイルを削除 */
+  font-size: 40px;
+  text-decoration:none;
+  font-family: cursive;
+}
+.navigation:hover .button{
+  /* ナビゲーションをマウスオーバーした際のアニメーションの動きを指定 */
+  opacity:.5;
+  /* 全てのボタンが少し小さくなる */
+  transform: scale(.98);
+}
+.navigation:hover .button:hover{
+  transition: .5s;
+  /* hover時の速度調整 */
+  transform:scale(1.5);
+  /* hoverしたボタンのみサイズを拡大する指定 */
+  opacity:1;
+}
+.navigation:hover .button:hover > p {
+  font-weight: bold;
+}
+#footer {
+  padding-bottom: 10px;
+}
+#footer p {
+  text-align: center;
+}
+.footer1{
+  font-family: cursive;
+}
+
+
+
+
+  
+  
